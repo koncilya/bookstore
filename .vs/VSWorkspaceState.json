@@ -3,8 +3,11 @@
     "",
     "\\BookStore",
     "\\BookStore\\WebApi",
-    "\\BookStore\\WebApi\\Controllers"
+    "\\BookStore\\WebApi\\BookOperations",
+    "\\CreateBook",
+    "\\GetBookDetail",
+    "\\GetBooks"
   ],
-  "SelectedNode": "\\BookStore\\WebApi\\Controllers",
+  "SelectedNode": "\\BookStore\\WebApi\\WebApi.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using HelloWebApi.Commen;
-using HelloWebApi.DbOperations;
+using WebApi.Commen;
+using WebApi.DbOperations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-namespace HelloWebApi.BookOperations.GetBooks
+namespace WebApi.BookOperations.GetBooks
 {
     public class GetBooksQuery
     {
