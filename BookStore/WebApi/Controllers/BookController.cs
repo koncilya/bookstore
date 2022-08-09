@@ -108,7 +108,6 @@ namespace WebApi.AddControllers
         public IActionResult UpdateBook(int id, [FromBody] Book updatedBook)
         {
 
-
             try
             {
                 UpdateBookCommand command = new UpdateBookCommand(_context);
@@ -119,7 +118,6 @@ namespace WebApi.AddControllers
             }
             catch (Exception ex)
             {
-                
                 return BadRequest.Message;
             }
             
